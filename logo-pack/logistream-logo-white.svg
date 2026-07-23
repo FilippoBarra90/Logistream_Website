@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 150" role="img" aria-labelledby="t d">
+<title id="t">Logistream</title><desc id="d">Logistream logo with connected route symbol</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#79b2ff"/><stop offset="1" stop-color="#397be8"/></linearGradient></defs>
+<g transform="translate(10 10)">
+  <path d="M18 82C48 82 57 39 92 39c25 0 35 24 58 24 17 0 28-11 41-28" fill="none" stroke="url(#g)" stroke-width="11" stroke-linecap="round"/>
+  <path d="M18 104h174" fill="none" stroke="#dce9fb" stroke-opacity=".86" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="18" cy="82" r="9" fill="#fff" stroke="#5f9cf5" stroke-width="6"/>
+  <circle cx="92" cy="39" r="9" fill="#fff" stroke="#5f9cf5" stroke-width="6"/>
+  <circle cx="150" cy="63" r="9" fill="#fff" stroke="#5f9cf5" stroke-width="6"/>
+  <path d="M172 21l23 14-25 10z" fill="#fff"/>
+</g>
+<text x="235" y="88" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="66" font-weight="700" letter-spacing="2">LOGISTREAM</text>
+<text x="239" y="120" fill="#9fb1c8" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="600" letter-spacing="3">INTERNATIONAL SUPPLY CHAIN MANAGEMENT</text>
+</svg>
