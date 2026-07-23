@@ -130,3 +130,7 @@
 .brand img{width:152px}
 .footer-brand img{width:142px}
 @media(max-width:980px){.brand img{width:132px}.footer-brand img{width:132px}}
+
+/* the width/height attributes on the portrait are a CLS hint only —
+   height must stay auto so the aspect-ratio rule keeps control */
+.portrait-wrap img{height:auto}
