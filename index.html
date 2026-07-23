@@ -8,8 +8,27 @@
   <meta property="og:title" content="Logistream | Your Outsourced Logistics Department">
   <meta property="og:description" content="International logistics managed from purchase order to final delivery.">
   <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Logistream">
+  <meta property="og:image" content="https://logistream.it/assets/og-en.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Logistream — your outsourced logistics department">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:locale:alternate" content="it_IT">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Logistream | Your Outsourced Logistics Department">
+  <meta name="twitter:description" content="International logistics managed from purchase order to final delivery.">
+  <meta name="twitter:image" content="https://logistream.it/assets/og-en.jpg">
   <meta property="og:url" content="https://logistream.it/">
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://logistream.it/">
+  <link rel="alternate" hreflang="en" href="https://logistream.it/">
+  <link rel="alternate" hreflang="it" href="https://logistream.it/it/">
+  <link rel="alternate" hreflang="x-default" href="https://logistream.it/">
+  <link rel="icon" href="assets/favicon.png" sizes="32x32">
+  <link rel="icon" href="assets/icon-512.png" sizes="512x512">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="author" content="Filippo Barra">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet">
@@ -20,16 +39,19 @@
 <header class="site-header" id="top">
   <div class="container nav-wrap">
     <a class="brand" href="#top" aria-label="Logistream home">
-      <img src="assets/logistream-logo.svg" alt="Logistream">
+      <img src="assets/logistream-logo.png" alt="Logistream">
     </a>
     <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
     <nav class="nav" aria-label="Main navigation">
       <a href="#services">Services</a>
       <a href="#process">How I work</a>
       <a href="#lanes">Trade lanes</a>
+      <a href="#engagement">Engagement</a>
+      <a href="shipping-guide.html">Guide</a>
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
     </nav>
+    <div class="lang-switch" aria-label="Language"><a href="index.html" class="active" aria-current="true" hreflang="en">EN</a><a href="it/index.html" hreflang="it">IT</a></div>
     <a class="btn btn-small" href="#contact">Let's talk</a>
   </div>
 </header>
@@ -150,6 +172,69 @@
     </div>
   </section>
 
+  <section class="engagement section-soft" id="engagement">
+    <div class="container">
+      <div class="section-heading centered reveal"><p class="eyebrow">Working together</p><h2>Three levels of involvement.</h2><p>Every business needs a different amount of support. We agree the scope and the commercial terms in writing before any work starts.</p></div>
+
+      <div class="tier-cards reveal">
+        <article class="tier">
+          <div class="tier-head">
+            <h3>Supply chain audit</h3>
+            <span class="tier-meter" role="img" aria-label="Involvement: light"><i class="on"></i><i></i><i></i></span>
+          </div>
+          <p class="tier-for">For businesses that suspect they are overpaying but cannot prove it.</p>
+          <ul>
+            <li>Review of current freight costs, routes and forwarders</li>
+            <li>Rates benchmarked against the market</li>
+            <li>Written report with prioritised actions</li>
+          </ul>
+          <p class="tier-scope"><span>Scope</span> One-off engagement, fixed duration</p>
+        </article>
+
+        <article class="tier tier-featured">
+          <div class="tier-head">
+            <h3>Shipment management</h3>
+            <span class="tier-meter" role="img" aria-label="Involvement: shared"><i class="on"></i><i class="on"></i><i></i></span>
+          </div>
+          <p class="tier-for">For teams that keep logistics in-house but are running out of hours.</p>
+          <ul>
+            <li>Freight procurement and booking on your behalf</li>
+            <li>Supplier follow-up and readiness checks</li>
+            <li>Export documentation and customs coordination</li>
+          </ul>
+          <p class="tier-scope"><span>Scope</span> Ongoing, agreed shipment volume</p>
+        </article>
+
+        <article class="tier">
+          <div class="tier-head">
+            <h3>Full outsourcing</h3>
+            <span class="tier-meter" role="img" aria-label="Involvement: full"><i class="on"></i><i class="on"></i><i class="on"></i></span>
+          </div>
+          <p class="tier-for">For companies that want logistics off their desk entirely.</p>
+          <ul>
+            <li>Everything in shipment management</li>
+            <li>Single point of contact for suppliers and carriers</li>
+            <li>Cost reporting and continuous improvement</li>
+          </ul>
+          <p class="tier-scope"><span>Scope</span> Ongoing, the full logistics function</p>
+        </article>
+      </div>
+
+      <div class="billing reveal">
+        <div class="billing-intro">
+          <p class="eyebrow">How it is billed</p>
+          <p>Three ways to structure the fee. We pick the one that fits your volume and how predictable it is — and it is fixed in writing before the first shipment.</p>
+        </div>
+        <ul class="billing-modes">
+          <li><strong>Monthly retainer</strong><span>Steady volumes, continuous support.</span></li>
+          <li><strong>Percentage of freight spend</strong><span>Fees move with your shipping activity.</span></li>
+          <li><strong>Hourly rate</strong><span>Occasional needs and one-off projects.</span></li>
+        </ul>
+        <a class="billing-cta" href="#contact">Not sure which fits? Tell me your volumes <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+
   <section class="about" id="about">
     <div class="container about-grid">
       <div class="portrait-wrap reveal"><img src="assets/filippo-barra.jpg" alt="Filippo Barra, international supply chain consultant"></div>
@@ -188,7 +273,134 @@
 </main>
 
 <footer>
-  <div class="container footer-grid"><a class="brand footer-brand" href="#top"><img src="assets/logistream-logo.svg" alt="Logistream"></a><p>© 2026 Logistream. All rights reserved.</p><div><a href="privacy.html">Privacy policy</a><a href="mailto:filippo@logistream.it">filippo@logistream.it</a><a href="https://www.linkedin.com/in/filippo-barra/" target="_blank" rel="noopener">LinkedIn</a></div></div>
+  <div class="container footer-grid"><a class="brand footer-brand" href="#top"><img src="assets/logistream-logo.png" alt="Logistream"></a><p>© 2026 Logistream. All rights reserved.</p><div><a href="shipping-guide.html">Guide</a><a href="privacy.html">Privacy policy</a><a href="mailto:filippo@logistream.it">filippo@logistream.it</a><a href="https://www.linkedin.com/in/filippo-barra/" target="_blank" rel="noopener">LinkedIn</a></div></div>
 </footer>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://logistream.it/#business",
+      "name": "Logistream",
+      "url": "https://logistream.it/",
+      "description": "Independent international logistics management for small and medium businesses: supplier coordination, freight procurement and end-to-end supply chain control.",
+      "email": "filippo@logistream.it",
+      "image": "https://logistream.it/assets/og-en.jpg",
+      "logo": "https://logistream.it/assets/logistream-logo.png",
+      "founder": {
+        "@id": "https://logistream.it/#filippo"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "IT"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Europe"
+        },
+        {
+          "@type": "Country",
+          "name": "Australia"
+        },
+        {
+          "@type": "Country",
+          "name": "United States"
+        },
+        {
+          "@type": "Place",
+          "name": "Middle East"
+        }
+      ],
+      "availableLanguage": [
+        "it",
+        "en"
+      ],
+      "knowsAbout": [
+        "Freight forwarding",
+        "Ocean freight",
+        "Air freight",
+        "Supply chain management",
+        "Customs clearance",
+        "Export documentation",
+        "Logistics outsourcing"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Logistics services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Supply chain audit"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Shipment management"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Full logistics outsourcing"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Ocean freight"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Air freight"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Road freight"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://logistream.it/#filippo",
+      "name": "Filippo Barra",
+      "jobTitle": "International Supply Chain Consultant",
+      "email": "filippo@logistream.it",
+      "image": "https://logistream.it/assets/filippo-barra.jpg",
+      "worksFor": {
+        "@id": "https://logistream.it/#business"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/filippo-barra/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://logistream.it/#website",
+      "url": "https://logistream.it/",
+      "name": "Logistream",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://logistream.it/#business"
+      }
+    }
+  ]
+}
+</script>
 </body>
 </html>
