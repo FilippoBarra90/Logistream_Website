@@ -29,9 +29,8 @@
   <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <meta name="author" content="Filippo Barra">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="../assets/fonts/manrope-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../assets/fonts/dm-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="../assets/styles.css">
   <script defer src="../assets/script.js"></script>
 </head>
@@ -76,7 +75,7 @@
 
       <div class="world-visual reveal" aria-label="Mappa delle trade lane Logistream">
         <div class="hero-map-card">
-          <img class="world-map-real" src="../assets/world-map-real.svg" alt="Mappa del mondo stilizzata">
+          <img class="world-map-real" src="../assets/world-map.png" width="1440" height="730" loading="eager" decoding="async" alt="Mappa del mondo stilizzata">
           <svg class="hero-routes" viewBox="0 0 720 365" aria-hidden="true">
             <defs>
               <filter id="routeGlow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
@@ -238,11 +237,11 @@
 
   <section class="about" id="about">
     <div class="container about-grid">
-      <div class="portrait-wrap reveal"><img src="../assets/filippo-barra.jpg" alt="Filippo Barra, consulente supply chain internazionale"></div>
+      <div class="portrait-wrap reveal"><img src="../assets/filippo-barra.jpg" width="900" height="900" loading="lazy" decoding="async" alt="Filippo Barra, fondatore e responsabile logistica di Logistream"></div>
       <div class="about-copy reveal">
         <p class="eyebrow light">Chi sono</p>
         <h2>Filippo Barra</h2>
-        <p class="role">Consulente Supply Chain Internazionale</p>
+        <p class="role">Fondatore e responsabile logistica</p>
         <p>Ho più di dieci anni di esperienza operativa e manageriale nella logistica internazionale, fra Italia, Regno Unito e Australia. Oggi affianco le piccole e medie imprese come loro reparto logistica in outsourcing.</p>
         <p>Lavoro direttamente con fornitori, spedizionieri e team interni per far sì che ogni spedizione trovi il giusto equilibrio fra costo, velocità e affidabilità.</p>
         <div class="about-stats"><div><strong>10+</strong><span>anni di esperienza</span></div><div><strong>3</strong><span>paesi</span></div><div><strong>EU ↔ AU</strong><span>trade lane principale</span></div><div><strong>CCO</strong><span>certificato CargoWise</span></div></div>
@@ -380,7 +379,7 @@
       "@type": "Person",
       "@id": "https://logistream.it/#filippo",
       "name": "Filippo Barra",
-      "jobTitle": "International Supply Chain Consultant",
+      "jobTitle": "Fondatore e responsabile logistica",
       "email": "filippo@logistream.it",
       "image": "https://logistream.it/assets/filippo-barra.jpg",
       "worksFor": {
