@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://logistream.it/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://logistream.it/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://logistream.it/it/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://logistream.it/"/>
+    <loc>https://www.logistream.it/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.logistream.it/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.logistream.it/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.logistream.it/"/>
     <lastmod>2026-07-23</lastmod><priority>1.0</priority>
   </url>
   <url>
-    <loc>https://logistream.it/it/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://logistream.it/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://logistream.it/it/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://logistream.it/"/>
+    <loc>https://www.logistream.it/it/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.logistream.it/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.logistream.it/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.logistream.it/"/>
     <lastmod>2026-07-23</lastmod><priority>1.0</priority>
   </url>
   <url>
-    <loc>https://logistream.it/shipping-guide.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://logistream.it/shipping-guide.html"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://logistream.it/it/guida-spedizioni.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://logistream.it/shipping-guide.html"/>
+    <loc>https://www.logistream.it/shipping-guide.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.logistream.it/shipping-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.logistream.it/it/guida-spedizioni.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.logistream.it/shipping-guide.html"/>
     <lastmod>2026-07-23</lastmod><priority>0.8</priority>
   </url>
   <url>
-    <loc>https://logistream.it/it/guida-spedizioni.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://logistream.it/shipping-guide.html"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://logistream.it/it/guida-spedizioni.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://logistream.it/shipping-guide.html"/>
+    <loc>https://www.logistream.it/it/guida-spedizioni.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.logistream.it/shipping-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.logistream.it/it/guida-spedizioni.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.logistream.it/shipping-guide.html"/>
     <lastmod>2026-07-23</lastmod><priority>0.8</priority>
   </url>
-  <url><loc>https://logistream.it/privacy.html</loc><lastmod>2026-07-23</lastmod><priority>0.3</priority></url>
+  <url><loc>https://www.logistream.it/privacy.html</loc><lastmod>2026-07-23</lastmod><priority>0.3</priority></url>
 </urlset>
